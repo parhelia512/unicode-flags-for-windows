@@ -107,3 +107,11 @@ Trong các trang web như:
 ## 💬 Tuyên ngôn
 
 > **Để người Việt Nam nói riêng và người dân thế giới nói chung được tôn vinh bằng từng biểu tượng.** 🇻🇳 🇺🇸💬🖥️🔥
+> ---
+
+## 🌐 Xem hướng dẫn bằng ngôn ngữ khác
+
+- 🇺🇸 [English version](chrome.en.md)
+- 🇨🇳 [中文版本](chrome.zh.md)
+- 🇷🇺 [Русская версия](chrome.ru.md)
+
