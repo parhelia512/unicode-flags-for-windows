@@ -147,3 +147,10 @@ Trong các ứng dụng:
 
 > **Để người Việt Nam nói riêng và người dân thế giới nói chung được tôn vinh bằng từng biểu tượng.** 🇻🇳 🇺🇸💬🖥️🔥
 
+---
+
+## 🌐 Xem hướng dẫn bằng ngôn ngữ khác
+
+- 🇺🇸 [English version](windows.en.md)
+- 🇨🇳 [中文版本](windows.zh.md)
+- 🇷🇺 [Русская версия](windows.ru.md)
