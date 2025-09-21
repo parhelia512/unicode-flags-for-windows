@@ -112,6 +112,6 @@ chrome://settings → 外观 → 自定义字体 → chrome://settings/fonts
 
 ## 🌐 查看其他语言版本
 
-- 🇻🇳 [Tiếng Việt](chrome.vi.md)
+- 🇻🇳 [Tiếng Việt (Vietnam)](chrome.vi.md)
 - 🇺🇸 [English version](chrome.en.md)
-- 🇷🇺 [Русская версия](chrome.ru.md)
+- 🇷🇺 [Русская версия (Russia)](chrome.ru.md)
