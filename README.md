@@ -18,7 +18,14 @@ Không chờ Microsoft. Không làm nửa vời. Đây là bản patch của ni�
 - Giữ độ nét chữ thường, spacing chuẩn
 - Hỗ trợ cả Windows 10 & Windows 11
 
----
+## 🦊 Thử thách toàn cầu: Fix emoji quốc kỳ trên Firefox
+
+> Firefox hiện vẫn chưa hiển thị emoji quốc kỳ đúng chuẩn Unicode.  
+> Ai fix được, sẽ được vinh danh tại [Firefox Wall of Fame](guides/firefox.wall-of-fame.vi.md) 🏅
+
+- 🌍 [Xem chi tiết thử thách](guides/firefox.prefix.vi.md)  
+- 🛠️ [Gửi cách fix của bạn](guides/firefox.fix.template.vi.md)
+
 
 ## 🇺🇸 English
 
@@ -27,7 +34,14 @@ Windows 10 and 11 do not natively support full Unicode flag emojis (e.g. 🇻�
 
 No waiting for Microsoft updates. No half-measures. This is a full technical fix built with persistence, system-level understanding, and community support.
 
----
+## 🦊 Global Challenge: Fix Unicode Flag Emoji in Firefox
+
+> Firefox still fails to render Unicode flag emojis correctly.  
+> Whoever fixes it will be honored on the [Firefox Wall of Fame](guides/firefox.wall-of-fame.en.md) 🏅
+
+- 🌍 [View the challenge](guides/firefox.prefix.en.md)  
+- 🛠️ [Submit your fix](guides/firefox.fix.template.en.md)
+
 
 ## 🇨🇳 中文（简体）
 
@@ -36,7 +50,14 @@ Windows 10 和 11 默认不支持完整的 Unicode 国旗表情符号（例如 �
 
 不等待微软更新。不做半吊子修复。这是由越南开发者 Tuannvbg 构建的彻底技术解决方案。
 
----
+## 🦊 全球挑战：修复 Firefox 中的国旗 emoji 显示问题
+
+> Firefox 目前仍无法正确显示 Unicode 国旗 emoji。  
+> 成功修复者将被收录在 [Firefox 荣誉墙](guides/firefox.wall-of-fame.zh.md) 🏅
+
+- 🌍 [查看挑战详情](guides/firefox.prefix.zh.md)  
+- 🛠️ [提交你的修复方案](guides/firefox.fix.template.zh.md)
+
 
 ## 🇷🇺 Русский
 
@@ -45,7 +66,14 @@ Windows 10 и 11 по умолчанию не поддерживают полн�
 
 Без ожидания обновлений от Microsoft. Без полумер. Это техническое решение от Tuannvbg — разработчика из Вьетнама, сделавшего всё, чтобы флаги отображались правильно.
 
----
+## 🦊 Глобальный вызов: исправить отображение эмодзи-флагов в Firefox
+
+> Firefox всё ещё неправильно отображает эмодзи-флаги Unicode.  
+> Тот, кто решит проблему, будет внесён в [Стену славы Firefox](guides/firefox.wall-of-fame.ru.md) 🏅
+
+- 🌍 [Посмотреть вызов](guides/firefox.prefix.ru.md)  
+- 🛠️ [Отправить своё решение](guides/firefox.fix.template.ru.md)
+
 
 ## 📸 Screenshots
 
