@@ -8,8 +8,8 @@ Tuannvbg – người Việt Nam làm chủ Unicode từng pixel 🇻🇳
 
 | Hệ điều hành     | Font sử dụng               |
 |------------------|----------------------------|
-| Windows 10       | `seguiemj_1_31_mod.ttf`    |
-| Windows 11       | `seguiemj_1_33_mod.ttf`    |
+| Windows 10       | [`seguiemj_1_31_mod.ttf`](seguiemj_1_31_mod.ttf)  
+| Windows 11       | [`seguiemj_1_33_mod.ttf`](seguiemj_1_33_mod.ttf)
 
 > 📌 Dùng đúng phiên bản giúp emoji flags hiển thị chuẩn, spacing mượt, không lỗi glyph
 
