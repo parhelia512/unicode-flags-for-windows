@@ -112,6 +112,6 @@ On websites like:
 
 ## 🌐 View this guide in other languages
 
-- 🇻🇳 [Tiếng Việt](chrome.vi.md)
-- 🇨🇳 [中文版本](chrome.zh.md)
-- 🇷🇺 [Русская версия](chrome.ru.md)
+- 🇻🇳 [Tiếng Việt (Vietnam)](chrome.vi.md)
+- 🇨🇳 [中文版本 (China)](chrome.zh.md)
+- 🇷🇺 [Русская версия (Russia)](chrome.ru.md)
