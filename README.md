@@ -36,6 +36,7 @@ Windows 10 and 11 do not natively support full Unicode flag emojis (e.g. 🇻�
 No waiting for Microsoft updates. No half-measures. This is a full technical fix built with persistence, system-level understanding, and community support.
 
 ## 🦊 Global Challenge: Fix Unicode Flag Emoji in Firefox
+[![Emoji Flag Challenge](https://img.shields.io/badge/Firefox_Emoji_Flag_Challenge-🌍_Join_the_Fix-red)](guides/firefox.prefix.en.md)
 
 > Firefox still fails to render Unicode flag emojis correctly.  
 > Whoever fixes it will be honored on the [Firefox Wall of Fame](guides/firefox.wall-of-fame.en.md) 🏅
@@ -52,6 +53,7 @@ Windows 10 和 11 默认不支持完整的 Unicode 国旗表情符号（例如 �
 不等待微软更新。不做半吊子修复。这是由越南开发者 Tuannvbg 构建的彻底技术解决方案。
 
 ## 🦊 全球挑战：修复 Firefox 中的国旗 emoji 显示问题
+[![Firefox 国旗 Emoji 挑战](https://img.shields.io/badge/Firefox_Emoji_国旗挑战-🌏_立即参与-red)](guides/firefox.prefix.zh.md)
 
 > Firefox 目前仍无法正确显示 Unicode 国旗 emoji。  
 > 成功修复者将被收录在 [Firefox 荣誉墙](guides/firefox.wall-of-fame.zh.md) 🏅
@@ -68,6 +70,7 @@ Windows 10 и 11 по умолчанию не поддерживают полн�
 Без ожидания обновлений от Microsoft. Без полумер. Это техническое решение от Tuannvbg — разработчика из Вьетнама, сделавшего всё, чтобы флаги отображались правильно.
 
 ## 🦊 Глобальный вызов: исправить отображение эмодзи-флагов в Firefox
+[![Вызов Emoji-флагов Firefox](https://img.shields.io/badge/Firefox_Emoji_Флаги-🚩_Исправь_и_прославься-red)](guides/firefox.prefix.ru.md)
 
 > Firefox всё ещё неправильно отображает эмодзи-флаги Unicode.  
 > Тот, кто решит проблему, будет внесён в [Стену славы Firefox](guides/firefox.wall-of-fame.ru.md) 🏅
