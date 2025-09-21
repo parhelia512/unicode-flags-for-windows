@@ -117,7 +117,7 @@ Trong các ứng dụng:
 ## 📚 Minh hoạ
 
 ### 🖼️ Copilot PC App
-![Copilot PC App](screenshots/Copilot.PC.app.Windows11.Screenshot.2025-09-21.103357.jpg)
+![Copilot PC App](Copilot.PC.app.Windows11.Screenshot.2025-09-21.103357.jpg)
 
 ### 🖼️ Notepad
 ![Notepad](screenshots/Notepad.Screenshot.2025-09-21.103618.jpg)
