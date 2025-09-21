@@ -36,12 +36,16 @@ chrome://settings → Giao diện → Tùy chỉnh font → chrome://settings/fo
 
 ---
 
-### 🔹 Bước 3: Chọn font emoji
+### 🔹 Bước 3: Gán font emoji cho tất cả mục
 
-- Trong mục “Standard font” hoặc “Sans-serif” → chọn `Segoe UI Emoji`
-- Nếu không thấy → gõ tay tên font vào: `Segoe UI Emoji`
+- Trong trang `chrome://settings/fonts`, gán `Segoe UI Emoji` cho cả 4 mục:
 
-> 📌 Chrome sẽ dùng font này để render emoji trong nội dung web
+  - **Standard font**
+  - **Serif font**
+  - **Sans-serif font**
+  - **Fixed-width font**
+
+> 📌 Việc gán cả 4 mục giúp Chrome luôn ưu tiên dùng font emoji đã patch, tránh bị thay thế bởi font hệ thống khác.
 
 ---
 
@@ -68,7 +72,7 @@ Trong các trang web như:
 ## 📚 Minh hoạ
 
 ### 🖼️ Cấu hình font trong Chrome Settings
-> Mở `chrome://settings/fonts` → chọn `Segoe UI Emoji` tại mục “Standard font” hoặc “Sans-serif”
+> Gán `Segoe UI Emoji` cho cả 4 mục: Standard, Serif, Sans-serif, Fixed-width
 
 ![Chrome Font Settings](../screenshots/Chrome.Font.Settings.Screenshot.2025-09-21.jpg)
 
