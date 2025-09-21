@@ -70,8 +70,8 @@ Windows 10 и 11 по умолчанию не поддерживают полн�
 ![Edge Screenshot](screenshots/Edge.Browser.Show.Screenshot.2025-09-21.111408.jpg)
 
 ### ✅ Firefox Browser
-> Even Firefox, with its own rendering engine, shows emoji flags flawlessly  
-![Firefox Screenshot](screenshots/Firefox.Browser.Show.Screenshot.2025-09-21.111557.jpg)
+> Firefox still fails to render Unicode flag emojis correctly  
+![Firefox Screenshot](screenshots/Firefox.Browser.Screenshot.2025-09-21.183410.jpg)
 
 ---
 
