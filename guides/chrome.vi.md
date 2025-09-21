@@ -78,6 +78,25 @@ Trong các trang web như:
 
 ---
 
+### 🖼️ Chrome hiển thị emoji quốc kỳ sau khi cấu hình
+> Emoji quốc kỳ hiển thị đúng, spacing mượt, không bị chèn chữ
+
+![Chrome Browser Result](../screenshots/Chrome.Browser.Show.Screenshot.2025-09-21.111129.jpg)
+
+---
+
+## 📊 Kết quả sau khi cấu hình
+
+- ✅ Emoji quốc kỳ hiển thị đúng: 🇻🇳 🇺🇸 🇯🇵 🇫🇷 🇩🇪  
+- ✅ Không bị chèn chữ, spacing mượt mà  
+- ✅ Chrome render emoji giống như Firefox, Safari, Copilot Web  
+- ✅ Không cần extension, không cần DevTools, chỉ cần cấu hình font  
+- ✅ Người dùng Việt Nam và toàn thế giới được tôn vinh bằng từng biểu tượng
+
+> 📌 Kiểm chứng bởi Tuannvbg trên Windows 11 + Chrome 117 + font `seguiemj_1_33_mod.ttf`
+
+---
+
 ## 🙌 Ghi nhận
 
 > Đây không chỉ là cấu hình trình duyệt. Đây là một tuyên ngôn kỹ thuật:  
