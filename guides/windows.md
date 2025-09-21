@@ -117,22 +117,22 @@ Trong các ứng dụng:
 ## 📚 Minh hoạ
 
 ### 🖼️ Copilot PC App
-![Copilot PC App](screenshots/Copilot.PC.app.Windows11.Screenshot.2025-09-21.103357.jpg)
+![Copilot PC App](..screenshots/Copilot.PC.app.Windows11.Screenshot.2025-09-21.103357.jpg)
 
 ### 🖼️ Notepad
-![Notepad](screenshots/Notepad.Screenshot.2025-09-21.103618.jpg)
+![Notepad](..screenshots/Notepad.Screenshot.2025-09-21.103618.jpg)
 
 ### 🖼️ Visual Studio Code
-![VS Code](screenshots/VSC2.Screenshot.2025-09-21.104033.jpg)
+![VS Code](..screenshots/VSC2.Screenshot.2025-09-21.104033.jpg)
 
 ### 🖼️ Chrome Browser
-![Chrome](screenshots/Chrome.Browser.Show.Screenshot.2025-09-21.111129.jpg)
+![Chrome](..screenshots/Chrome.Browser.Show.Screenshot.2025-09-21.111129.jpg)
 
 ### 🖼️ Microsoft Edge
-![Edge](screenshots/Edge.Browser.Show.Screenshot.2025-09-21.111408.jpg)
+![Edge](..screenshots/Edge.Browser.Show.Screenshot.2025-09-21.111408.jpg)
 
 ### 🖼️ Firefox Browser
-![Firefox](screenshots/Firefox.Browser.Show.Screenshot.2025-09-21.111557.jpg)
+![Firefox](..screenshots/Firefox.Browser.Show.Screenshot.2025-09-21.111557.jpg)
 
 ---
 
