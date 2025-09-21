@@ -27,6 +27,28 @@ Không chờ Microsoft. Không làm nửa vời. Đây là bản patch của ni�
 - 🌍 [Xem chi tiết thử thách](guides/firefox.prefix.vi.md)  
 - 🛠️ [Gửi cách fix của bạn](guides/firefox.fix.template.vi.md)
 
+## 🤔 So sánh với các giải pháp khác
+
+Bạn có thể từng nghe đến các repo như:
+
+- [`13rac1/twemoji-color-font`](https://github.com/13rac1/twemoji-color-font)
+- Các script thêm font emoji riêng vào hệ thống
+- Dùng ảnh SVG để thay emoji trong trình duyệt (Twemoji CDN, v.v.)
+
+Mỗi giải pháp đều có ưu/nhược điểm riêng.
+
+| Tiêu chí                     | twemoji-color-font         | unicode-flags-for-windows     |
+|-----------------------------|----------------------------|-------------------------------|
+| Cờ quốc gia hiển thị đúng?  | ⚠️ Có thể đúng (tuỳ hệ thống) | ✅ Ổn định, native Unicode     |
+| Emoji khác có màu không?    | ❌ Phần lớn là đen trắng     | ✅ Màu đầy đủ                  |
+| Can thiệp font hệ thống?    | ❌ Không                    | ✅ Có (có backup)              |
+| Tối ưu cho Windows 10/11?   | ❌ Chưa hoàn thiện           | ✅ Tối ưu riêng cho Windows    |
+| Cần chỉnh registry?         | ❌ Không                    | ✅ Có (tự động / thủ công)     |
+| Hỗ trợ Firefox?             | ❌ Không nhắm tới           | ❓ (đang là thử thách)         |
+| Cộng đồng đang tham gia?    | ✅ Khá đông                 | 🆕 Vừa khởi động               |
+
+📣 Nếu bạn muốn giúp Firefox hiển thị emoji quốc kỳ đúng chuẩn:  
+→ [Tham gia thử thách tại đây](guides/firefox.prefix.vi.md) 🦊🔥
 
 ## 🇺🇸 English
 
