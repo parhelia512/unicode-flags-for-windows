@@ -65,6 +65,28 @@ No waiting for Microsoft updates. No half-measures. This is a full technical fix
 
 - 🌍 [View the challenge](guides/firefox.prefix.en.md)  
 - 🛠️ [Submit your fix](guides/firefox.fix.template.en.md)
+## 🤔 Comparison with other solutions
+
+You may have heard of projects like:
+
+- [`13rac1/twemoji-color-font`](https://github.com/13rac1/twemoji-color-font)
+- Scripts that inject custom emoji fonts
+- Using SVG images to replace emojis in browsers (Twemoji CDN, etc.)
+
+Each solution has its pros and cons.
+
+| Criteria                    | twemoji-color-font         | unicode-flags-for-windows     |
+|----------------------------|----------------------------|-------------------------------|
+| Flag emojis render correctly? | ⚠️ Possibly (depends on system) | ✅ Stable, native Unicode     |
+| Other emojis in color?     | ❌ Mostly black & white     | ✅ Full color support          |
+| Modifies system fonts?     | ❌ No                      | ✅ Yes (with backup)           |
+| Optimized for Windows 10/11? | ❌ Not fully               | ✅ Specifically optimized      |
+| Requires registry edits?   | ❌ No                      | ✅ Yes (auto/manual)           |
+| Firefox support?           | ❌ Not targeted             | ❓ (currently a challenge)     |
+| Active community?          | ✅ Fairly large             | 🆕 Just launched               |
+
+📣 Want to help Firefox render flag emojis correctly?  
+→ [Join the challenge here](guides/firefox.prefix.en.md) 🦊🔥
 
 
 ## 🇨🇳 中文（简体）
@@ -82,6 +104,28 @@ Windows 10 和 11 默认不支持完整的 Unicode 国旗表情符号（例如 �
 
 - 🌍 [查看挑战详情](guides/firefox.prefix.zh.md)  
 - 🛠️ [提交你的修复方案](guides/firefox.fix.template.zh.md)
+## 🤔 与其他方案对比
+
+你可能听说过以下项目：
+
+- [`13rac1/twemoji-color-font`](https://github.com/13rac1/twemoji-color-font)
+- 注入自定义 emoji 字体的脚本
+- 使用 SVG 图片替代浏览器中的 emoji（如 Twemoji CDN）
+
+每种方案都有其优缺点。
+
+| 对比项                     | twemoji-color-font         | unicode-flags-for-windows     |
+|----------------------------|----------------------------|-------------------------------|
+| 国旗 emoji 显示正确？      | ⚠️ 可能正确（依赖系统）       | ✅ 稳定，原生 Unicode          |
+| 其他 emoji 有颜色？        | ❌ 大多数是黑白的             | ✅ 全彩支持                    |
+| 是否修改系统字体？         | ❌ 否                        | ✅ 是（含备份）                |
+| 针对 Windows 10/11 优化？  | ❌ 尚未完善                   | ✅ 专为 Windows 优化           |
+| 是否需要修改注册表？       | ❌ 否                        | ✅ 是（自动或手动）            |
+| 支持 Firefox？             | ❌ 非目标平台                 | ❓（当前为挑战）               |
+| 社区活跃度？               | ✅ 较活跃                     | 🆕 刚刚启动                    |
+
+📣 想帮助 Firefox 正确显示国旗 emoji？  
+→ [立即参与挑战](guides/firefox.prefix.zh.md) 🦊🔥
 
 
 ## 🇷🇺 Русский
@@ -99,6 +143,28 @@ Windows 10 и 11 по умолчанию не поддерживают полн�
 
 - 🌍 [Посмотреть вызов](guides/firefox.prefix.ru.md)  
 - 🛠️ [Отправить своё решение](guides/firefox.fix.template.ru.md)
+## 🤔 Сравнение с другими решениями
+
+Возможно, вы слышали о таких проектах, как:
+
+- [`13rac1/twemoji-color-font`](https://github.com/13rac1/twemoji-color-font)
+- Скрипты для внедрения кастомных emoji-шрифтов
+- Замена emoji на SVG-изображения в браузере (Twemoji CDN и др.)
+
+У каждого подхода есть свои плюсы и минусы.
+
+| Критерий                   | twemoji-color-font         | unicode-flags-for-windows     |
+|----------------------------|----------------------------|-------------------------------|
+| Эмодзи-флаги отображаются правильно? | ⚠️ Возможно (зависит от системы) | ✅ Стабильно, Unicode по умолчанию |
+| Цветные эмодзи?            | ❌ В основном чёрно-белые    | ✅ Полноцветные                 |
+| Меняет системные шрифты?   | ❌ Нет                      | ✅ Да (с резервной копией)      |
+| Оптимизация под Windows 10/11? | ❌ Не завершена            | ✅ Специально оптимизировано    |
+| Требуется правка реестра?  | ❌ Нет                      | ✅ Да (авто / вручную)          |
+| Поддержка Firefox?         | ❌ Не целевая платформа     | ❓ (текущий вызов)              |
+| Активность сообщества?     | ✅ Довольно активное         | 🆕 Только стартовало            |
+
+📣 Хотите помочь Firefox правильно отображать эмодзи-флаги?  
+→ [Примите участие в вызове](guides/firefox.prefix.ru.md) 🦊🔥
 
 
 ## 📸 Screenshots
