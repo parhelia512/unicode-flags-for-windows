@@ -51,7 +51,7 @@ Windows 10 и 11 по умолчанию не поддерживают полн�
 
 ### ✅ Copilot PC App
 > Emoji flags rendered correctly in Copilot PC app on Windows 11  
-![Copilot PC App Screenshot](screenshots/Copilot.PC.app.Windows11.Screenshot.2025-09-21.103357.jpg)
+![Copilot PC App Screenshot](screenshots/Copilot.PC.app.Windows11.Screenshot 2025-09-21 103357)
 
 ### ✅ Notepad
 > Even the simplest app now displays Unicode flags properly  
