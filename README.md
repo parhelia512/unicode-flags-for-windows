@@ -19,6 +19,7 @@ Không chờ Microsoft. Không làm nửa vời. Đây là bản patch của ni�
 - Hỗ trợ cả Windows 10 & Windows 11
 
 ## 🦊 Thử thách toàn cầu: Fix emoji quốc kỳ trên Firefox
+[![Thử thách Emoji Quốc Kỳ](https://img.shields.io/badge/Thử_thách_Firefox_Emoji_Quốc_Kỳ-🇻🇳_Vào_chiến-nghệ_red)](guides/firefox.prefix.vi.md)
 
 > Firefox hiện vẫn chưa hiển thị emoji quốc kỳ đúng chuẩn Unicode.  
 > Ai fix được, sẽ được vinh danh tại [Firefox Wall of Fame](guides/firefox.wall-of-fame.vi.md) 🏅
