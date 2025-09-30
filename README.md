@@ -27,7 +27,7 @@ Repo này hỗ trợ hướng dẫn cài đặt và sử dụng bằng nhiều n
 - 🇷🇺 [Русская версия (Russia)](./guides/windows.ru.md)
 - 🌐 [Other languages](./guides/) (coming soon)
 
-## 🌍 Emoji Picker, Unicode Version 17.0 — Phát hiện thú vị về bản mod emoji flags cho Win10
+## 🌍 Emoji Picker Win11 cho Win10, Emoji Unicode Version 17.0 — Phát hiện thú vị về bản mod emoji flags cho Win10
 
 ### ✅ Quy trình cài đặt khuyến nghị
 
@@ -126,20 +126,9 @@ Truy cập `edge://settings/fonts` để tùy chỉnh các loại font:
 
 ![Emoji Picker Win11 trên Windows 10](./screenshots/win10/Win10.Emoji.Picker.Style.Win11.p2.20250930.JPG)
 
----
-
-### 💡 Ví dụ Markdown cấu hình Edge
-
-```markdown
-## Edge trên Windows 10
-Try edge://settings/fonts để tùy chỉnh các loại font: Standard, Serif, Sans-serif, Fixed-width
-
-Ảnh minh hoạ:
-![Edge trên Win10](./screenshots/win10/Win10.Edge.Show.Fonts.NotoColorEmoji.20250930.JPG)
-
 ### 📢 Kết luận
 
-✅ **Windows 10 hoàn toàn có thể hiển thị emoji cờ quốc gia và Unicode 17.0**,  
+✅ **Windows 10 hoàn toàn có thể hiển thị emoji cờ quốc gia và Emoji Unicode 17.0**,  
 nếu cài font đúng thứ tự: **font cơ bản trước**, **Twemoji Flags sau**,  
 và cấu hình trình duyệt dùng `'Noto Color Emoji'` để đảm bảo emoji flags hiển thị đúng màu.
 
@@ -148,7 +137,7 @@ và cấu hình trình duyệt dùng `'Noto Color Emoji'` để đảm bảo emo
 | Hệ điều hành + Font | Emoji Unicode 17.0 | Emoji cờ quốc gia | Ghi chú |
 |---------------------|---------------------|--------------------|--------|
 | Windows 10 + `seguiemj_1_31_mod.ttf` | ✅ | ✅ | Combo hoàn hảo — hỗ trợ đầy đủ emoji |
-| Windows 11 + `seguiemj_1_33_mod.ttf` | ❌ | ✅ | Hiển thị cờ OK, thiếu emoji mới |
+| Windows 11 + `seguiemj_1_33_mod.ttf` | ❌ | ✅ | Hiển thị cờ OK, cờ Trung Quốc 🇨🇳 bị lỗi thành cờ ngũ sắc 1928 |
 | Windows 11 + chỉ Twemoji Flags | ❌ | ✅ | Có cờ màu, không có emoji mới |
 > Bảng này cho biết hệ thống nào hỗ trợ emoji mới và emoji cờ quốc gia khi dùng font đã chỉnh sửa.
 
