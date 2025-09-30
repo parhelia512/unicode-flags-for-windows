@@ -29,7 +29,7 @@ Tuannvbg —— 一位来自越南的开发者，成功让 Windows 正确显示 
 | 操作系统     | 使用字体文件               |
 |--------------|-----------------------------|
 | Windows 10   | `seguiemj_1_31_mod.ttf`     |
-| Windows 11   | `seguiemj_1_33_mod.ttf`     |
+| Windows 11   | `Segoe.UI.Emoji.with.Twemoji.Flags.ttf`     |
 
 > 📌 使用正确版本可确保国旗表情显示正常，字符间距合理，无乱码问题。
 
@@ -51,7 +51,7 @@ Tuannvbg —— 一位来自越南的开发者，成功让 Windows 正确显示 
 - 输入以下命令：
 
 ```powershell
-Copy-Item "E:\FontEmoji\seguiemj_1_33_mod.ttf" -Destination "$env:windir\Fonts" -Force
+Copy-Item "E:\FontEmoji\Segoe.UI.Emoji.with.Twemoji.Flags.ttf" -Destination "$env:windir\Fonts" -Force
 ```
 
 > 根据你的 Windows 版本替换文件名
@@ -84,7 +84,7 @@ seguiemj_1_33_mod.ttf
 - 如果不存在 → 右键 → `新建 > 字符串值`
 
   - 名称：`Segoe UI Emoji (TrueType)`  
-  - 值：`seguiemj_1_33_mod.ttf`
+  - 值：`Segoe.UI.Emoji.with.Twemoji.Flags.ttf`
 
 ---
 
