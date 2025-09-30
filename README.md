@@ -34,7 +34,7 @@ Repo này hỗ trợ hướng dẫn cài đặt và sử dụng bằng nhiều n
 Đây là một phát hiện thú vị: khi cài font `Segoe.UI.Emoji.with.Twemoji.Flags.ttf`, người dùng Windows 10 có thể:
 
 - Tận hưởng emoji picker của Windows 11  
-- Hiển thị đầy đủ emoji Unicode 17.0 (🫨🫠🫷🫸)  
+- Hiển thị đầy đủ emoji Unicode 17.0 (🫨🫠🫷🫸)  (đã được hỗ trợ khi mod font với seguiemj_1_31_mod.ttf - sau khi cài font Segoe.UI.Emoji.with.Twemoji.Flags.ttf được kế thừa từ seguiemj_1_31_mod.ttf)
 - Hiển thị emoji cờ quốc gia đầy màu sắc (🇻🇳🇺🇸🇯🇵)
 
 ---
