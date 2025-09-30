@@ -75,7 +75,7 @@ Repo này hỗ trợ hướng dẫn cài đặt và sử dụng bằng nhiều n
 
 ### 📸 Ảnh minh họa
 
-> Bảng chọn emoji của Windows 11 chạy trên Windows 10 — hiển thị đầy đủ emoji cờ — chụp từ Copilot PC App.
+> Bảng chọn emoji của Windows 11 chạy trên Windows 10 — hiển thị đầy đủ emoji — chụp từ Copilot PC App.
 
 ![Emoji Picker Win11 trên Windows 10](./screenshots/win10/Win10.Emoji.Picker.Style.Win11.p2.20250930.JPG)
 
