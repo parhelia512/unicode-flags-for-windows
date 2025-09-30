@@ -154,3 +154,49 @@ Mỗi giải pháp đều có ưu/nhược điểm riêng.
 
 📣 Nếu bạn muốn giúp Firefox hiển thị emoji quốc kỳ đúng chuẩn:  
 → [Tham gia thử thách tại đây](guides/firefox.prefix.vi.md) 🦊🔥
+
+## 📸 Ảnh minh hoạ
+
+### ✅ Ứng dụng Copilot PC
+> Emoji cờ quốc gia hiển thị chính xác trong ứng dụng Copilot PC trên Windows 11  
+![Ảnh chụp Copilot PC App](screenshots/Copilot.PC.app.Windows11.Screenshot.2025-09-21.103357.jpg)
+
+### ✅ Notepad
+> Ngay cả ứng dụng đơn giản nhất cũng hiển thị emoji cờ Unicode một cách chính xác  
+![Ảnh chụp Notepad](screenshots/Notepad.Screenshot.2025-09-21.103618.jpg)
+
+### ✅ Visual Studio Code
+> VS Code hiển thị đầy đủ emoji cờ trong markdown và phần chú thích mã  
+![Ảnh chụp VS Code](screenshots/VSC2.Screenshot.2025-09-21.104033.jpg)
+
+### ✅ Trình duyệt Chrome
+> Chrome hiển thị emoji cờ hoàn hảo sau khi áp dụng bản vá  
+![Ảnh chụp Chrome](screenshots/Chrome.Browser.Show.Screenshot.2025-09-21.111129.jpg)
+
+### ✅ Trình duyệt Microsoft Edge
+> Edge hiển thị emoji cờ trong Copilot Web và nội dung đa ngôn ngữ  
+![Ảnh chụp Edge](screenshots/Edge.Browser.Show.Screenshot.2025-09-21.111408.jpg)
+
+### ✅ Trình duyệt Firefox
+> Firefox vẫn chưa hiển thị đúng emoji cờ Unicode  
+![Ảnh chụp Firefox](screenshots/Firefox.Browser.Screenshot.2025-09-21.183410.jpg)
+
+---
+
+## 🙌 Ghi nhận đóng góp
+
+- [`Chasmical/flag-emojis-for-windows`](https://github.com/Chasmical/flag-emojis-for-windows)  
+- [`perguto/Country-Flag-Emojis-for-Windows`](https://github.com/perguto/Country-Flag-Emojis-for-Windows)  
+- [`llccd.eu.org`](https://llccd.eu.org/2022/02/win_flags)  
+- [`13rac1/twemoji-color-font`](https://github.com/13rac1/twemoji-color-font)  
+- Copilot AI – đối tác hỗ trợ kỹ thuật và lên ý tưởng
+
+---
+
+## 💬 Tác giả
+Tuannvbg – lập trình viên Việt Nam đầu tiên giúp emoji cờ Unicode hiển thị đúng trên Windows 😎🇻🇳🇺🇸
+
+---
+
+## 📄 Giấy phép
+Dự án này được cấp phép theo MIT License – bạn có thể sử dụng, chỉnh sửa và chia sẻ để giúp emoji cờ Unicode hiển thị đúng trên hệ thống Windows.
