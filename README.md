@@ -27,6 +27,67 @@ Repo này hỗ trợ hướng dẫn cài đặt và sử dụng bằng nhiều n
 - 🇷🇺 [Русская версия (Russia)](./guides/windows.ru.md)
 - 🌐 [Other languages](./guides/) (coming soon)
 
+## 🌍 Báo cáo kỹ thuật toàn cầu: Emoji cờ quốc gia trên Windows 10 (tương thích với Chrome)
+
+### ✅ Quy trình cài đặt khuyến nghị
+
+Để hiển thị đầy đủ emoji cờ quốc gia (🇻🇳🇺🇸🏳️‍🌈) và emoji Unicode 17.0 (🫨🫠🫷🫸) trên Windows 10 — đặc biệt trong Chrome và các trình duyệt dùng Chromium — hãy thực hiện theo 2 bước sau:
+
+---
+
+### 🔹 Bước 1: Cài font emoji cơ bản
+
+📁 Font: [`seguiemj_1_31_mod.ttf`](https://github.com/tuannvbg/unicode-flags-for-windows/tree/main/fonts)
+
+- ✅ Hỗ trợ emoji Unicode 17.0  
+- ✅ Cải thiện hiển thị emoji trong:
+  - Copilot PC App  
+  - Chrome ([Hướng dẫn Chrome](./guides/chrome.vi.md))  
+  - Edge ([Hướng dẫn Edge](./guides/edge.vi.md))  
+- 🧠 Sử dụng CPAL v0 để tương thích hoàn toàn với Windows 10
+
+📌 Hãy cài font này trước và kiểm tra hiển thị emoji trong các ứng dụng trước khi chuyển sang bước tiếp theo.
+
+---
+
+### 🔹 Bước 2: Cài font hỗ trợ emoji cờ quốc gia
+
+📁 Font: [`Segoe.UI.Emoji.with.Twemoji.Flags.ttf`](https://github.com/Chasmical/flag-emojis-for-windows)  
+📁 Hoặc tải từ: [`/fonts/`](https://github.com/tuannvbg/unicode-flags-for-windows/tree/main/fonts)
+
+- ✅ Hiển thị emoji cờ đầy đủ màu sắc (ví dụ: 🇯🇵🇫🇷🇧🇷)  
+- ✅ Hoạt động với bảng chọn emoji của Windows (`Win + .`)  
+- 🧩 Kết hợp giữa Segoe UI Emoji v1.60 và Twemoji v16.0.1
+
+📌 Font này bổ sung cho font cơ bản — không thay thế hoàn toàn.
+
+---
+
+### 🧪 Bảng tương thích hệ thống
+
+| Hệ điều hành + Font | Emoji Unicode 17.0 | Emoji cờ quốc gia | Ghi chú |
+|---------------------|---------------------|--------------------|--------|
+| Win10 + `seguiemj_1_31_mod.ttf` | ✅ | ❌ | Chỉ có emoji cơ bản |
+| Win10 + `seguiemj_1_31_mod.ttf` + Twemoji Flags | ✅ | ✅ | Trải nghiệm emoji đầy đủ |
+| Win11 + chỉ Twemoji Flags | ❌ | ✅ | Có cờ, thiếu emoji 17.0 |
+
+---
+
+### 📸 Ảnh minh họa
+
+> Bảng chọn emoji của Windows 11 chạy trên Windows 10 — hiển thị đầy đủ emoji cờ — chụp từ Copilot PC App.
+
+![Emoji Picker Win11 trên Windows 10](./screenshots/win10/Win10.Emoji.Picker.Style.Win11.p2.20250930.JPG)
+
+
+### 📢 Kết luận
+
+✅ **Windows 10 hoàn toàn có thể hiển thị emoji cờ quốc gia và Unicode 17.0**,  
+nếu cài font đúng thứ tự: font cơ bản trước, Twemoji Flags sau.
+
+Xem thêm hướng dẫn chi tiết cho Chrome: [Hướng dẫn Chrome](./guides/chrome.vi.md)
+
+
   ## 🧪 Bảng tương thích hệ thống
 
 | Hệ điều hành + Font | Emoji Unicode 17.0 | Emoji cờ quốc gia | Ghi chú |
