@@ -27,6 +27,16 @@ Repo này hỗ trợ hướng dẫn cài đặt và sử dụng bằng nhiều n
 - 🇷🇺 [Русская версия (Russia)](./guides/windows.ru.md)
 - 🌐 [Other languages](./guides/) (coming soon)
 
+  ## 🧪 Bảng tương thích hệ thống
+
+| Hệ điều hành + Font | Emoji Unicode 17.0 | Emoji cờ quốc gia | Ghi chú |
+|---------------------|---------------------|--------------------|--------|
+| Windows 10 + `seguiemj_1_31_mod.ttf` | ✅ | ✅ | Combo hoàn hảo — hỗ trợ đầy đủ emoji |
+| Windows 11 + `seguiemj_1_33_mod.ttf` | ❌ | ✅ | Hiển thị cờ OK, thiếu emoji mới |
+| Windows 11 + chỉ Twemoji Flags | ❌ | ✅ | Có cờ màu, không có emoji mới |
+> Bảng này cho biết hệ thống nào hỗ trợ emoji mới và emoji cờ quốc gia khi dùng font đã chỉnh sửa.
+
+
 ## 🦊 Thử thách toàn cầu: Fix emoji quốc kỳ trên Firefox
 [![Thử thách Emoji Quốc Kỳ](https://img.shields.io/badge/Thử_thách_Firefox_Emoji_Quốc_Kỳ-🇻🇳_Vào_chiến-nghệ_red)](guides/firefox.prefix.vi.md)
 
@@ -130,6 +140,15 @@ Windows 10 和 11 默认不支持完整的 Unicode 国旗表情符号（例如 �
 🇨🇳 [中文版本 (China)](./guides/windows.zh.md)  
 🇷🇺 [Русская версия (Russia)](./guides/windows.ru.md)
 
+## 🧪 兼容性矩阵
+
+| 操作系统 + 字体 | Unicode 17.0 表情符号 | 彩色国旗 Emoji | 说明 |
+|------------------|------------------------|------------------|------|
+| Windows 10 + `seguiemj_1_31_mod.ttf` | ✅ | ✅ | 最佳组合 — 支持全部 emoji |
+| Windows 11 + `seguiemj_1_33_mod.ttf` | ❌ | ✅ | 国旗显示正常，缺少新 emoji |
+| Windows 11 + 仅安装 Twemoji Flags | ❌ | ✅ | 有彩色国旗，无 Unicode 17.0 表情 |
+> 此表展示了在不同 Windows 系统中使用修改字体后的 emoji 支持情况。
+
 
 ## 🦊 全球挑战：修复 Firefox 中的国旗 emoji 显示问题
 [![Firefox 国旗 Emoji 挑战](https://img.shields.io/badge/Firefox_Emoji_国旗挑战-🌏_立即参与-red)](guides/firefox.prefix.zh.md)
@@ -179,6 +198,16 @@ Windows 10 и 11 по умолчанию не поддерживают полн�
 🇺🇸 [English version](./guides/windows.en.md)  
 🇨🇳 [中文版本 (China)](./guides/windows.zh.md)  
 🇷🇺 [Русская версия (Russia)](./guides/windows.ru.md)
+
+## 🧪 Матрица совместимости
+
+| ОС + Шрифт | Emoji Unicode 17.0 | Флаги emoji | Примечание |
+|------------|---------------------|--------------|------------|
+| Windows 10 + `seguiemj_1_31_mod.ttf` | ✅ | ✅ | Идеальное сочетание — поддержка всех emoji |
+| Windows 11 + `seguiemj_1_33_mod.ttf` | ❌ | ✅ | Флаги отображаются, но нет новых emoji |
+| Windows 11 + только Twemoji Flags | ❌ | ✅ | Есть цветные флаги, нет Unicode 17.0 emoji |
+> Эта таблица показывает, какие функции emoji поддерживаются в разных версиях Windows при использовании модифицированных шрифтов.
+
 
 > Firefox всё ещё неправильно отображает эмодзи-флаги Unicode.  
 > Тот, кто решит проблему, будет внесён в [Стену славы Firefox](guides/firefox.wall-of-fame.ru.md) 🏅
