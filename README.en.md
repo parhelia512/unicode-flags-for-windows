@@ -8,9 +8,11 @@ No waiting for Microsoft updates. No half-measures. This is a full technical fix
 ## 📚 Installation Guides
 
 🌐 View other language versions:  
-🇻🇳 [Tiếng Việt](./guides/windows.vi.md)   
-🇨🇳 [中文版本 (China)](./guides/windows.zh.md)  
-🇷🇺 [Русская версия (Russia)](./guides/windows.ru.md)
+- 🇻🇳 [Tiếng Việt](./guides/windows.vi.md)
+- 🇺🇸 [English version](./guides/windows.en.md)
+- 🇨🇳 [中文版本 (China)](./guides/windows.zh.md)
+- 🇷🇺 [Русская версия (Russia)](./guides/windows.ru.md)
+- 🌐 [Other languages](./guides/) (coming soon)
 
 ## 🌍 Emoji Picker, Unicode Version 17.0 — A Technical Discovery About the Emoji Flags Mod for Windows 10
 
