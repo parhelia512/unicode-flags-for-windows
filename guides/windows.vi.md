@@ -29,7 +29,7 @@ Hiển thị đúng emoji quốc kỳ Unicode (🇻🇳 🇺🇸 🇯🇵 🇫�
 | Hệ điều hành     | Font sử dụng               |
 |------------------|----------------------------|
 | Windows 10       | `seguiemj_1_31_mod.ttf`    |
-| Windows 11       | `seguiemj_1_33_mod.ttf`    |
+| Windows 11       | `Segoe.UI.Emoji.with.Twemoji.Flags.ttf`    |
 
 > 📌 Dùng đúng phiên bản giúp emoji flags hiển thị chuẩn, spacing mượt, không lỗi glyph
 
@@ -51,7 +51,7 @@ Hiển thị đúng emoji quốc kỳ Unicode (🇻🇳 🇺🇸 🇯🇵 🇫�
 - Gõ lệnh:
 
 ```powershell
-Copy-Item "E:\FontEmoji\seguiemj_1_33_mod.ttf" -Destination "$env:windir\Fonts" -Force
+Copy-Item "E:\FontEmoji\Segoe.UI.Emoji.with.Twemoji.Flags.ttf" -Destination "$env:windir\Fonts" -Force
 ```
 
 > Thay tên file tùy theo phiên bản Windows bạn đang dùng
@@ -78,13 +78,13 @@ Segoe UI Emoji (TrueType)
 - Nếu có → nhấp đôi → sửa giá trị thành:
 
 ```
-seguiemj_1_33_mod.ttf
+Segoe.UI.Emoji.with.Twemoji.Flags.ttf
 ```
 
 - Nếu không có → chuột phải → `New > String Value`
 
   - Tên: `Segoe UI Emoji (TrueType)`  
-  - Giá trị: `seguiemj_1_33_mod.ttf`
+  - Giá trị: `Segoe.UI.Emoji.with.Twemoji.Flags.ttf`
 
 ---
 
