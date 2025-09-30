@@ -99,8 +99,8 @@ To enable full-color emoji flags (🇻🇳🇺🇸🏳️‍🌈) and Unicode 17
 - ✅ Adds support for Unicode 17.0 emojis  
 - ✅ Improves emoji rendering in:
   - Copilot PC App  
-  - Chrome ([Chrome setup guide](../guides/chrome.en.md))  
-  - Edge ([Edge setup guide](../guides/edge.en.md))  
+  - Chrome ([Chrome setup guide](./guides/chrome.en.md))  
+  - Edge ([Edge setup guide](./guides/edge.en.md))  
 - 🧠 Uses CPAL v0 for full compatibility with Windows 10
 
 📌 Install this font first and test emoji rendering across apps before proceeding.
