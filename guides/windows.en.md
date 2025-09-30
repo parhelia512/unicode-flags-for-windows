@@ -29,7 +29,7 @@ Enable proper rendering of Unicode flag emojis (🇻🇳 🇺🇸 🇯🇵 🇫�
 | Operating System | Font to use               |
 |------------------|---------------------------|
 | Windows 10       | `seguiemj_1_31_mod.ttf`   |
-| Windows 11       | `seguiemj_1_33_mod.ttf`   |
+| Windows 11       | `Segoe.UI.Emoji.with.Twemoji.Flags.ttf`   |
 
 > 📌 Using the correct version ensures proper emoji flag rendering, clean spacing, and no glyph errors.
 
@@ -51,7 +51,7 @@ Enable proper rendering of Unicode flag emojis (🇻🇳 🇺🇸 🇯🇵 🇫�
 - Run the command:
 
 ```powershell
-Copy-Item "E:\FontEmoji\seguiemj_1_33_mod.ttf" -Destination "$env:windir\Fonts" -Force
+Copy-Item "E:\FontEmoji\Segoe.UI.Emoji.with.Twemoji.Flags.ttf" -Destination "$env:windir\Fonts" -Force
 ```
 
 > Replace the filename depending on your Windows version
@@ -78,13 +78,13 @@ Segoe UI Emoji (TrueType)
 - If it exists → double-click → change the value to:
 
 ```
-seguiemj_1_33_mod.ttf
+Segoe.UI.Emoji.with.Twemoji.Flags.ttf
 ```
 
 - If it doesn’t exist → right-click → `New > String Value`
 
   - Name: `Segoe UI Emoji (TrueType)`  
-  - Value: `seguiemj_1_33_mod.ttf`
+  - Value: `Segoe.UI.Emoji.with.Twemoji.Flags.ttf`
 
 ---
 
