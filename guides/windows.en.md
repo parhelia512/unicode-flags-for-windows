@@ -132,7 +132,7 @@ In apps like:
 ![Edge](../screenshots/Edge.Browser.Show.Screenshot.2025-09-21.111408.jpg)
 
 ### 🖼️ Firefox Browser
-![Firefox](../screenshots/Firefox.Browser.Show.Screenshot.2025-09-21.111557.jpg)
+![Firefox](../Firefox.Browser.Screenshot.2025-09-21.183410.jpg)
 
 ---
 
