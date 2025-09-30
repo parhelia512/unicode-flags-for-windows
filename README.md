@@ -1,3 +1,15 @@
+# 🌍 Unicode Flags for Windows — Emoji Picker + Unicode 17.0 Support
+
+This project helps Windows 10 display full-color flag emojis 🇻🇳🇺🇸🇯🇵 and Unicode 17.0 symbols (🫨🫠🫷🫸), using custom font stacking.
+
+📘 Available in:
+- 🇬🇧 [English](./README.en.md)
+- 🇻🇳 [Tiếng Việt](./README.vi.md)
+- 🇨🇳 [中文](./README.zh.md)
+- 🇷🇺 [Русский](./README.ru.md)
+
+👇 Scroll down for full Vietnamese version.
+
 # unicode-flags-for-windows 🇻🇳
 
 Tuannvbg – người Việt Nam quyết tâm và làm bằng được emoji quốc kỳ phải hiển thị đúng trên Windows 😎🇻🇳🇺🇸
