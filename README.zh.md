@@ -153,3 +153,52 @@ Windows 10 和 11 默认不支持完整的 Unicode 国旗表情符号（例如 �
 
 📣 想帮助 Firefox 正确显示国旗 emoji？  
 → [立即参与挑战](guides/firefox.prefix.zh.md) 🦊🔥
+
+## 📸 截图展示
+
+### ✅ Copilot PC 应用
+> 在 Windows 11 上的 Copilot PC 应用中，emoji 国旗显示正确  
+![Copilot PC 应用截图](screenshots/Copilot.PC.app.Windows11.Screenshot.2025-09-21.103357.jpg)
+
+### ✅ 记事本（Notepad）
+> 即使是最简单的应用，现在也能正确显示 Unicode 国旗  
+![记事本截图](screenshots/Notepad.Screenshot.2025-09-21.103618.jpg)
+
+### ✅ Visual Studio Code
+> VS Code 可在 Markdown 和代码注释中完整显示 emoji 国旗  
+![VS Code 截图](screenshots/VSC2.Screenshot.2025-09-21.104033.jpg)
+
+### ✅ Chrome 浏览器
+> Chrome 在打补丁后能完美显示 emoji 国旗  
+![Chrome 截图](screenshots/Chrome.Browser.Show.Screenshot.2025-09-21.111129.jpg)
+
+### ✅ Microsoft Edge 浏览器
+> Edge 可在 Copilot Web 和多语言内容中显示 emoji 国旗  
+![Edge 截图](screenshots/Edge.Browser.Show.Screenshot.2025-09-21.111408.jpg)
+
+### ✅ Firefox 浏览器
+> Firefox 仍无法正确显示 Unicode 国旗 emoji  
+![Firefox 截图](screenshots/Firefox.Browser.Screenshot.2025-09-21.183410.jpg)
+
+---
+
+## 🙌 致谢名单
+
+- [`Chasmical/flag-emojis-for-windows`](https://github.com/Chasmical/flag-emojis-for-windows)  
+- [`perguto/Country-Flag-Emojis-for-Windows`](https://github.com/perguto/Country-Flag-Emojis-for-Windows)  
+- [`llccd.eu.org`](https://llccd.eu.org/2022/02/win_flags)  
+- [`13rac1/twemoji-color-font`](https://github.com/13rac1/twemoji-color-font)  
+- Copilot AI – 技术头脑风暴合作伙伴
+
+---
+
+## 💬 作者
+
+Tuannvbg – 第一位让 Unicode 国旗 emoji 在 Windows 上正确显示的越南开发者 😎🇻🇳🇺🇸
+
+---
+
+## 📄 许可证
+
+本项目采用 MIT 许可证授权 – 欢迎自由使用、修改和分享，以帮助 Unicode 国旗 emoji 在 Windows 系统上正确显示。
+
