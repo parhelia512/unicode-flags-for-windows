@@ -17,6 +17,15 @@ Không chờ Microsoft. Không làm nửa vời. Đây là bản patch của ni�
 - Tối ưu cho Chrome, Edge, Firefox
 - Giữ độ nét chữ thường, spacing chuẩn
 - Hỗ trợ cả Windows 10 & Windows 11
+## 📚 Hướng dẫn sử dụng
+
+Repo này hỗ trợ hướng dẫn cài đặt và sử dụng bằng nhiều ngôn ngữ:
+
+- 🇻🇳 [Tiếng Việt](./guides/windows.vi.md)
+- 🇺🇸 [English version](./guides/windows.en.md)
+- 🇨🇳 [中文版本 (China)](./guides/windows.zh.md)
+- 🇷🇺 [Русская версия (Russia)](./guides/windows.ru.md)
+- 🌐 [Other languages](./guides/) (coming soon)
 
 ## 🦊 Thử thách toàn cầu: Fix emoji quốc kỳ trên Firefox
 [![Thử thách Emoji Quốc Kỳ](https://img.shields.io/badge/Thử_thách_Firefox_Emoji_Quốc_Kỳ-🇻🇳_Vào_chiến-nghệ_red)](guides/firefox.prefix.vi.md)
