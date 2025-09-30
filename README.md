@@ -57,9 +57,42 @@ Repo này hỗ trợ hướng dẫn cài đặt và sử dụng bằng nhiều n
 
 - ✅ Hiển thị emoji cờ đầy đủ màu sắc (ví dụ: 🇯🇵🇫🇷🇧🇷)  
 - ✅ Hoạt động với bảng chọn emoji của Windows (`Win + .`)  
-- 🧩 Kết hợp giữa Segoe UI Emoji v1.60 và Twemoji v16.0.1
+- 🧩 Kết hợp giữa Segoe UI Emoji v1.60 và Twemoji v16.0.1  
+- 📌 Font này bổ sung cho font cơ bản — không thay thế hoàn toàn
 
-📌 Font này bổ sung cho font cơ bản — không thay thế hoàn toàn.
+---
+
+### 📷 Cấu hình font trình duyệt để hiển thị emoji flags
+
+Sau khi cài font `Segoe.UI.Emoji.with.Twemoji.Flags.ttf`, cần cấu hình trình duyệt để emoji flags hiển thị đầy đủ màu sắc.
+
+✅ Gợi ý: dùng `'Noto Color Emoji'` thay vì `'Segoe UI Emoji'` để tránh hiện tượng emoji flags bị xanh lè hoặc mất màu.
+
+---
+
+### 🖼️ Chrome trên Windows 10
+
+Truy cập `chrome://settings/fonts` để tùy chỉnh các loại font:  
+**Standard**, **Serif**, **Sans-serif**, **Fixed-width**  
+→ Gán `'Noto Color Emoji'` cho tất cả các loại font để emoji flags hiển thị đúng màu.
+
+📁 Ảnh minh hoạ:  
+`screenshots/win10/Win10.Chrome.Show.Fonts.NotoColorEmoji.20250930.JPG`
+
+![Cấu hình font Chrome với Noto Color Emoji](./screenshots/win10/Win10.Chrome.Show.Fonts.NotoColorEmoji.20250930.JPG)
+
+---
+
+### 🖼️ Edge trên Windows 10
+
+Truy cập `edge://settings/fonts` để tùy chỉnh các loại font:  
+**Standard**, **Serif**, **Sans-serif**, **Fixed-width**  
+→ Gán `'Noto Color Emoji'` cho tất cả các loại font để emoji flags hiển thị đúng màu.
+
+📁 Ảnh minh hoạ:  
+`screenshots/win10/Win10.Edge.Show.Fonts.NotoColorEmoji.20250930.JPG`
+
+![Cấu hình font Edge với Noto Color Emoji](./screenshots/win10/Win10.Edge.Show.Fonts.NotoColorEmoji.20250930.JPG)
 
 ---
 
@@ -73,19 +106,31 @@ Repo này hỗ trợ hướng dẫn cài đặt và sử dụng bằng nhiều n
 
 ---
 
-### 📸 Ảnh minh họa
+### 📸 Ảnh minh hoạ
 
 > Bảng chọn emoji của Windows 11 chạy trên Windows 10 — hiển thị đầy đủ emoji — chụp từ Copilot PC App.
 
 ![Emoji Picker Win11 trên Windows 10](./screenshots/win10/Win10.Emoji.Picker.Style.Win11.p2.20250930.JPG)
 
+---
+
+### 💡 Ví dụ Markdown cấu hình Edge
+
+```markdown
+## Edge trên Windows 10
+Try edge://settings/fonts để tùy chỉnh các loại font: Standard, Serif, Sans-serif, Fixed-width
+
+Ảnh minh hoạ:
+![Edge trên Win10](./screenshots/win10/Win10.Edge.Show.Fonts.NotoColorEmoji.20250930.JPG)
 
 ### 📢 Kết luận
 
 ✅ **Windows 10 hoàn toàn có thể hiển thị emoji cờ quốc gia và Unicode 17.0**,  
-nếu cài font đúng thứ tự: font cơ bản trước, Twemoji Flags sau.
+nếu cài font đúng thứ tự: **font cơ bản trước**, **Twemoji Flags sau**,  
+và cấu hình trình duyệt dùng `'Noto Color Emoji'` để đảm bảo emoji flags hiển thị đúng màu.
 
-Xem thêm hướng dẫn chi tiết cho Chrome: [Hướng dẫn Chrome](./guides/chrome.vi.md)
+📎 Xem thêm hướng dẫn chi tiết cho Chrome: [Hướng dẫn Chrome](./guides/chrome.vi.md)
+
 
 
   ## 🧪 Bảng tương thích hệ thống
