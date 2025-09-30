@@ -140,16 +140,6 @@ Sau khi cài font `Segoe.UI.Emoji.with.Twemoji.Flags.ttf`, tôi cấu hình trì
 nếu cài font đúng thứ tự: **font cơ bản trước**, **Twemoji Flags sau**,  
 và cấu hình trình duyệt dùng `'Noto Color Emoji'` để đảm bảo emoji flags hiển thị đúng màu.
 
-  ## 🧪 Bảng tương thích hệ thống
-
-| Hệ điều hành + Font | Emoji Unicode 17.0 | Emoji cờ quốc gia | Ghi chú |
-|---------------------|---------------------|--------------------|--------|
-| Windows 10 + `seguiemj_1_31_mod.ttf` | ✅ | ✅ | Combo hoàn hảo — hỗ trợ đầy đủ emoji |
-| Windows 11 + `seguiemj_1_33_mod.ttf` | ❌ | ✅ | Hiển thị cờ OK, cờ Trung Quốc 🇨🇳 bị lỗi thành cờ ngũ sắc 1928 |
-| Windows 11 + chỉ Twemoji Flags | ❌ | ✅ | Có cờ màu, có emoji mới theo seguiemj 1.60 |
-> Bảng này cho biết hệ thống nào hỗ trợ emoji mới và emoji cờ quốc gia khi dùng font đã chỉnh sửa.
-
-
 ## 🦊 Thử thách toàn cầu: Fix emoji quốc kỳ trên Firefox
 [![Thử thách Emoji Quốc Kỳ](https://img.shields.io/badge/Thử_thách_Firefox_Emoji_Quốc_Kỳ-🇻🇳_Vào_chiến-nghệ_red)](guides/firefox.prefix.vi.md)
 
