@@ -27,14 +27,14 @@ Repo này hỗ trợ hướng dẫn cài đặt và sử dụng bằng nhiều n
 - 🇷🇺 [Русская версия (Russia)](./guides/windows.ru.md)
 - 🌐 [Other languages](./guides/) (coming soon)
 
-## 🌍 Emoji Picker Win11 cho Win10, Emoji Unicode Version 17.0 — Phát hiện thú vị về bản mod emoji flags cho Win10
+## 🌍 Emoji Picker, Unicode Version 17.0 — Phát hiện thú vị về bản mod emoji flags cho Win10
 
 ### ✅ Quy trình cài đặt khuyến nghị
 
-Đây là một phát hiện thú vị: khi cài font `Segoe.UI.Emoji.with.Twemoji.Flags.ttf`, người dùng Windows 10 có thể:
+Đây là một phát hiện thú vị: khi cài font `Segoe.UI.Emoji.with.Twemoji.Flags.ttf`, tôi có thể:
 
 - Tận hưởng emoji picker của Windows 11  
-- Hiển thị đầy đủ emoji Unicode 17.0 (🫨🫠🫷🫸)  (đã được hỗ trợ khi mod font với seguiemj_1_31_mod.ttf - sau khi cài font Segoe.UI.Emoji.with.Twemoji.Flags.ttf được kế thừa từ seguiemj_1_31_mod.ttf)
+- Hiển thị đầy đủ emoji Unicode 17.0 (🫨🫠🫷🫸)  
 - Hiển thị emoji cờ quốc gia đầy màu sắc (🇻🇳🇺🇸🇯🇵)
 
 ---
@@ -50,7 +50,7 @@ Repo này hỗ trợ hướng dẫn cài đặt và sử dụng bằng nhiều n
   - Edge ([Hướng dẫn Edge](./guides/edge.vi.md))  
 - 🧠 Sử dụng CPAL v0 để tương thích hoàn toàn với Windows 10
 
-📌 Hãy cài font này trước và kiểm tra hiển thị emoji trong các ứng dụng trước khi chuyển sang bước tiếp theo.
+📌 Tôi cài font này trước để đảm bảo emoji Unicode mới được hiển thị đúng.
 
 ---
 
@@ -66,47 +66,63 @@ Repo này hỗ trợ hướng dẫn cài đặt và sử dụng bằng nhiều n
 
 ---
 
+### 🔍 Phát hiện kỹ thuật thú vị: Ghép font để mở rộng hỗ trợ emoji
+
+Bản thân `seguiemj_1_31_mod.ttf` **đã hỗ trợ emoji flags**, nhưng vì đây là font gốc của Windows 10 nên emoji hiển thị theo phong cách cũ — không đẹp bằng Fluent 3D của Windows 11.
+
+→ Vì vậy, tôi đã thử cài thêm `Segoe.UI.Emoji.with.Twemoji.Flags.ttf` của Chasmical để:
+
+- ✅ Giữ lại emoji flags đầy đủ màu sắc  
+- ✅ Tận hưởng giao diện emoji đẹp như Windows 11 (nhờ nền Segoe UI Emoji v1.60)  
+- ✅ Kết hợp với `seguiemj_1_31_mod.ttf` để bổ sung emoji Unicode 17.0 (🫨🫠🫷🫸)
+
+📌 Giải thích kỹ thuật:
+
+- Font của Chasmical **không thay thế toàn bộ emoji**, mà chỉ thêm 258 emoji cờ quốc gia từ Twemoji v16.0.1  
+- Phần emoji còn lại giữ nguyên từ `Segoe UI Emoji v1.60` — chính là Fluent 3D 15.1 (Win11 23H2, bản ngày 2024-06-25)  
+- Trích từ repo Chasmical:
+
+  > *“This font is based on Segoe UI Emoji v1.60 (3D Fluent 15.1; Win11 23H2; 2024-06-25) and contains 258 flags from the Twitter Color Emoji SVGinOT v16.0.1 (2025-04-14) compiled by quarrel.”*
+
+🧠 Khi cài `seguiemj_1_31_mod.ttf` trước, hệ thống sẽ fallback sang font này để hiển thị emoji mới từ Unicode 17.0 mà font của Chasmical chưa có.  
+→ Đây là cách “ghép font” thông minh:  
+- Font đầu tiên cung cấp emoji mới  
+- Font thứ hai giữ Fluent 3D và thêm emoji flags  
+→ Kết quả: Windows 10 hiển thị emoji như Win11, nhưng còn **mạnh hơn cả Win11** vì hỗ trợ Unicode 17.0.
+
+---
+
 ### 📷 Cấu hình font trình duyệt để hiển thị emoji flags
 
-Sau khi cài font `Segoe.UI.Emoji.with.Twemoji.Flags.ttf`, cần cấu hình trình duyệt để emoji flags hiển thị đầy đủ màu sắc.
+Sau khi cài font `Segoe.UI.Emoji.with.Twemoji.Flags.ttf`, tôi cấu hình trình duyệt để emoji flags hiển thị đầy đủ màu sắc.
 
 ✅ Gợi ý: dùng `'Noto Color Emoji'` thay vì `'Segoe UI Emoji'` để tránh hiện tượng emoji flags bị xanh lè hoặc mất màu.
 
 ---
 
-### 🖼️ Chrome trên Windows 10
+### 📸 Minh hoạ thực tế
 
-Truy cập `chrome://settings/fonts` để tùy chỉnh các loại font:  
-**Standard**, **Serif**, **Sans-serif**, **Fixed-width**  
-→ Gán `'Noto Color Emoji'` cho tất cả các loại font để emoji flags hiển thị đúng màu.
+#### 🧩 Emoji Picker kiểu Windows 11 trên Windows 10
 
-📁 Ảnh minh hoạ cấu hình:  
-`screenshots/win10/Win10.Chrome.Setting.Fonts.NotoColorEmoji.20250930.JPG`
+![Emoji Picker Win11 trên Windows 10](./screenshots/win10/Win10.Emoji.Picker.Style.Win11.p2.20250930.JPG)
 
-![Cấu hình Chrome với Noto Color Emoji](./screenshots/win10/Win10.Chrome.Setting.Fonts.NotoColorEmoji.20250930.JPG)
+---
 
-📁 Ảnh minh hoạ sau khi cấu hình:  
-`screenshots/win10/Win10.Chrome.Show.Fonts.NotoColorEmoji.20250930.JPG`
+#### 🌐 Chrome sau khi cấu hình font `'Noto Color Emoji'`
 
 ![Hiển thị emoji flags trong Chrome](./screenshots/win10/Win10.Chrome.Show.Fonts.NotoColorEmoji.20250930.JPG)
 
 ---
 
-### 🖼️ Edge trên Windows 10
-
-Truy cập `edge://settings/fonts` để tùy chỉnh các loại font:  
-**Standard**, **Serif**, **Sans-serif**, **Fixed-width**  
-→ Gán `'Noto Color Emoji'` cho tất cả các loại font để emoji flags hiển thị đúng màu.
-
-📁 Ảnh minh hoạ cấu hình:  
-`screenshots/win10/Win10.Edge.Setting.Fonts.NotoColorEmoji.20250930.JPG`
-
-![Cấu hình Edge với Noto Color Emoji](./screenshots/win10/Win10.Edge.Setting.Fonts.NotoColorEmoji.20250930.JPG)
-
-📁 Ảnh minh hoạ sau khi cấu hình:  
-`screenshots/win10/Win10.Edge.Show.Fonts.NotoColorEmoji.20250930.JPG`
+#### 🌐 Edge sau khi cấu hình font `'Noto Color Emoji'`
 
 ![Hiển thị emoji flags trong Edge](./screenshots/win10/Win10.Edge.Show.Fonts.NotoColorEmoji.20250930.JPG)
+
+---
+
+#### 🔍 Chrome truy cập emojipedia.org — kiểm tra emoji Unicode 17.0
+
+![Chrome truy cập emojipedia.org](./screenshots/win10/Win10.Chrome.blog.emojipedia.org.20250930.JPG)
 
 ---
 
@@ -114,21 +130,13 @@ Truy cập `edge://settings/fonts` để tùy chỉnh các loại font:
 
 | Hệ điều hành + Font | Emoji Unicode 17.0 | Emoji cờ quốc gia | Ghi chú |
 |---------------------|---------------------|--------------------|--------|
-| Win10 + `seguiemj_1_31_mod.ttf` | ✅ | ❌ | Chỉ có emoji cơ bản |
-| Win10 + `seguiemj_1_31_mod.ttf` + Twemoji Flags | ✅ | ✅ | Trải nghiệm emoji đầy đủ |
+| Win10 + `seguiemj_1_31_mod.ttf` | ✅ | ✅ | Emoji đầy đủ nhưng kiểu cũ |
+| Win10 + `seguiemj_1_31_mod.ttf` + Twemoji Flags | ✅ | ✅ | Trải nghiệm emoji đẹp và đầy đủ |
 | Win11 + chỉ Twemoji Flags | ❌ | ✅ | Có cờ, thiếu emoji 17.0 |
-
----
-
-### 📸 Ảnh minh hoạ bổ sung
-
-> Bảng chọn emoji của Windows 11 chạy trên Windows 10 — hiển thị đầy đủ emoji — chụp từ Copilot PC App.
-
-![Emoji Picker Win11 trên Windows 10](./screenshots/win10/Win10.Emoji.Picker.Style.Win11.p2.20250930.JPG)
 
 ### 📢 Kết luận
 
-✅ **Windows 10 hoàn toàn có thể hiển thị emoji cờ quốc gia và Emoji Unicode 17.0**,  
+✅ **Windows 10 hoàn toàn có thể hiển thị emoji cờ quốc gia và Unicode 17.0**,  
 nếu cài font đúng thứ tự: **font cơ bản trước**, **Twemoji Flags sau**,  
 và cấu hình trình duyệt dùng `'Noto Color Emoji'` để đảm bảo emoji flags hiển thị đúng màu.
 
