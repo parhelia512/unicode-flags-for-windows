@@ -3,6 +3,7 @@
 This project helps Windows 10 display full-color flag emojis 🇻🇳🇺🇸🇯🇵 and Unicode 17.0 symbols (🫨🫠🫷🫸), using custom font stacking.
 
 📘 Available in:
+- 🇺🇸 [English](./README.en.md)
 - 🇻🇳 [Tiếng Việt](./README.vi.md)
 - 🇨🇳 [中文](./README.zh.md)
 - 🇷🇺 [Русский](./README.ru.md)
