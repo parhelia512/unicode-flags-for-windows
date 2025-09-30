@@ -8,9 +8,11 @@ Windows 10 和 11 默认不支持完整的 Unicode 国旗表情符号（例如 �
 ## 📚 安装指南
 
 🌐 查看其他语言版本：  
-🇻🇳 [Tiếng Việt](./guides/windows.vi.md)  
-🇺🇸 [English version](./guides/windows.en.md)  
-🇷🇺 [Русская версия (Russia)](./guides/windows.ru.md)
+- 🇻🇳 [Tiếng Việt](./guides/windows.vi.md)
+- 🇺🇸 [English version](./guides/windows.en.md)
+- 🇨🇳 [中文版本 (China)](./guides/windows.zh.md)
+- 🇷🇺 [Русская версия (Russia)](./guides/windows.ru.md)
+- 🌐 [Other languages](./guides/) (coming soon)
 
 ## 🌍 Emoji Picker，Unicode 17.0 — 关于 Windows 10 emoji 国旗字体补丁的技术发现
 
