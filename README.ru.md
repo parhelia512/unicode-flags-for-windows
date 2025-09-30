@@ -10,9 +10,11 @@ Windows 10 и 11 по умолчанию не поддерживают полн�
 
 ## 📚 Руководство по установке
 🌐 Просмотреть другие языковые версии:  
-🇻🇳 [Tiếng Việt](./guides/windows.vi.md)  
-🇺🇸 [English version](./guides/windows.en.md)  
-🇨🇳 [中文版本 (China)](./guides/windows.zh.md)  
+- 🇻🇳 [Tiếng Việt](./guides/windows.vi.md)
+- 🇺🇸 [English version](./guides/windows.en.md)
+- 🇨🇳 [中文版本 (China)](./guides/windows.zh.md)
+- 🇷🇺 [Русская версия (Russia)](./guides/windows.ru.md)
+- 🌐 [Other languages](./guides/) (coming soon)
 
 ## 🧪 Матрица совместимости
 
