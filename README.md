@@ -84,6 +84,66 @@ No waiting for Microsoft updates. No half-measures. This is a full technical fix
 🇨🇳 [中文版本 (China)](./guides/windows.zh.md)  
 🇷🇺 [Русская версия (Russia)](./guides/windows.ru.md)
 
+## 🌍 Global Dev Report: Emoji Flags on Windows 10 (Chrome-Compatible Setup)
+
+### ✅ Recommended Installation Flow
+
+To enable full-color emoji flags (🇻🇳🇺🇸🏳️‍🌈) and Unicode 17.0 emojis (🫨🫠🫷🫸) on Windows 10 — especially for Chrome and Chromium-based apps — follow this two-step setup:
+
+---
+
+### 🔹 Step 1: Install Base Emoji Font
+
+📁 Font: [`seguiemj_1_31_mod.ttf`](https://github.com/tuannvbg/unicode-flags-for-windows/tree/main/fonts)
+
+- ✅ Adds support for Unicode 17.0 emojis  
+- ✅ Improves emoji rendering in:
+  - Copilot PC App  
+  - Chrome ([Chrome setup guide](../guides/chrome.en.md))  
+  - Edge ([Edge setup guide](../guides/edge.en.md))  
+- 🧠 Uses CPAL v0 for full compatibility with Windows 10
+
+📌 Install this font first and test emoji rendering across apps before proceeding.
+
+---
+
+### 🔹 Step 2: Add Flag Emoji Support
+
+📁 Font: [`Segoe.UI.Emoji.with.Twemoji.Flags.ttf`](https://github.com/Chasmical/flag-emojis-for-windows)  
+📁 Or download from: [`/fonts/`](https://github.com/tuannvbg/unicode-flags-for-windows/tree/main/fonts)
+
+- ✅ Adds full-color emoji flags (e.g. 🇯🇵🇫🇷🇧🇷)  
+- ✅ Works with Windows emoji picker (`Win + .`)  
+- 🧩 Combines Segoe UI Emoji v1.60 + Twemoji v16.0.1
+
+📌 This font complements the base font — it does not replace it.
+
+---
+
+### 🧪 Compatibility Matrix
+
+| OS + Font Combo | Unicode 17.0 Emoji | Emoji Flags | Notes |
+|------------------|---------------------|--------------|-------|
+| Win10 + `seguiemj_1_31_mod.ttf` | ✅ | ❌ | Base emoji only |
+| Win10 + `seguiemj_1_31_mod.ttf` + Twemoji Flags | ✅ | ✅ | Full emoji experience |
+| Win11 + Twemoji Flags only | ❌ | ✅ | Flags OK, emoji 17.0 missing |
+
+---
+
+### 📸 Screenshot Proof
+
+> Emoji picker from Windows 11 running on Windows 10 — with full-color flags — captured via Copilot PC App.
+
+---
+
+### 📢 Conclusion
+
+✅ **Windows 10 can fully support emoji flags and Unicode 17.0**,  
+if fonts are installed in the correct order: base mod first, then Twemoji flags.
+
+For Chrome-specific tweaks, see: [Chrome Setup Guide](../guides/chrome.en.md)
+
+
 ## 🧪 Compatibility Matrix
 
 | OS + Font | Unicode 17.0 Emoji | Emoji Flags | Notes |
