@@ -74,6 +74,15 @@ No waiting for Microsoft updates. No half-measures. This is a full technical fix
 🇨🇳 [中文版本 (China)](./guides/windows.zh.md)  
 🇷🇺 [Русская версия (Russia)](./guides/windows.ru.md)
 
+## 🧪 Compatibility Matrix
+
+| OS + Font | Unicode 17.0 Emoji | Emoji Flags | Notes |
+|-----------|---------------------|--------------|-------|
+| Windows 10 + `seguiemj_1_31_mod.ttf` | ✅ | ✅ | Best combo — full emoji support |
+| Windows 11 + `seguiemj_1_33_mod.ttf` | ❌ | ✅ | Flags OK, but Unicode 17.0 missing |
+| Windows 11 + Twemoji Flags only | ❌ | ✅ | Flags show, but no new emoji |
+> This table shows which emoji features are supported on different Windows setups using patched fonts.
+
 ## 🦊 Global Challenge: Fix Unicode Flag Emoji in Firefox
 [![Emoji Flag Challenge](https://img.shields.io/badge/Firefox_Emoji_Flag_Challenge-🌍_Join_the_Fix-red)](guides/firefox.prefix.en.md)
 
