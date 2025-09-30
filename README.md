@@ -39,20 +39,7 @@ Repo này hỗ trợ hướng dẫn cài đặt và sử dụng bằng nhiều n
 
 ---
 
-### 🔹 Bước 1: Cài font emoji cơ bản
-
-📁 Font: [`seguiemj_1_31_mod.ttf`](https://github.com/tuannvbg/unicode-flags-for-windows/tree/main/fonts)
-
-- ✅ Hỗ trợ emoji Unicode 17.0  
-- ✅ Cải thiện hiển thị emoji trong:
-  - Copilot PC App  
-  - Chrome ([Hướng dẫn Chrome](./guides/chrome.vi.md))  
-  - Edge ([Hướng dẫn Edge](./guides/edge.vi.md))  
-- 🧠 Sử dụng CPAL v0 để tương thích hoàn toàn với Windows 10
-
-📌 Tôi cài font này trước để đảm bảo emoji Unicode mới được hiển thị đúng.
-
----
+### 🔹 Bước 1: Làm theo hướng dẫn tại dây 🇻🇳 [Tiếng Việt](./guides/windows.vi.md)
 
 ### 🔹 Bước 2: Cài font hỗ trợ emoji cờ quốc gia
 
