@@ -138,7 +138,7 @@ và cấu hình trình duyệt dùng `'Noto Color Emoji'` để đảm bảo emo
 |---------------------|---------------------|--------------------|--------|
 | Windows 10 + `seguiemj_1_31_mod.ttf` | ✅ | ✅ | Combo hoàn hảo — hỗ trợ đầy đủ emoji |
 | Windows 11 + `seguiemj_1_33_mod.ttf` | ❌ | ✅ | Hiển thị cờ OK, cờ Trung Quốc 🇨🇳 bị lỗi thành cờ ngũ sắc 1928 |
-| Windows 11 + chỉ Twemoji Flags | ❌ | ✅ | Có cờ màu, không có emoji mới |
+| Windows 11 + chỉ Twemoji Flags | ❌ | ✅ | Có cờ màu, có emoji mới theo seguiemj 1.60 |
 > Bảng này cho biết hệ thống nào hỗ trợ emoji mới và emoji cờ quốc gia khi dùng font đã chỉnh sửa.
 
 
