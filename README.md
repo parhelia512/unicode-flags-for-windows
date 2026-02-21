@@ -1,6 +1,6 @@
 # 🌍 Unicode Flags for Windows — Emoji Picker + Unicode 17.0 Support
 
-This project helps Windows 10 display full-color flag emojis 🇻🇳🇺🇸🇯🇵 and Unicode 17.0 symbols (🫨🫠🫷🫸), using custom font stacking.
+This project helps Windows 10 & 11 display full-color flag emojis 🇻🇳🇺🇸🇯🇵 and Unicode 17.0 symbols (🫨🫠🫷🫸), using custom font stacking.
 
 📘 Available in:
 - 🇺🇸 [English](./README.en.md)
